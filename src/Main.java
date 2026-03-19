@@ -71,6 +71,7 @@ public class Main {
                 } else {
                     System.out.println("PIN salah. Percobaan ke-" + ketemu.getJumlahSalahPin());
                 }
+                sc.close();
             }
         }
     }
